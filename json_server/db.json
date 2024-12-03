@@ -1,0 +1,45 @@
+{
+  "sanbay": [
+    {
+      "id": "4052",
+      "TenSanBay": "4",
+      "ThanhPho": "4",
+      "QuocGia": "123"
+    }
+  ],
+  "hangmaybay": [
+    {
+      "id": "1",
+      "TenHangMayBay": "VietJet",
+      "QuocGia": "Viet Nam"
+    },
+    {
+      "id": "2",
+      "TenHangMayBay": "VietNam Airline",
+      "QuocGia": "Viet Nam"
+    },
+    {
+      "id": "3",
+      "TenHangMayBay": "Bamboo Airline",
+      "QuocGia": "Viet Nam"
+    }
+  ],
+  "maybay": [
+    {
+      "id": "A321",
+      "TenMayBay": "Airbus A321",
+      "SoGhe": 200
+    },
+    {
+      "id": "B747",
+      "TenMayBay": "Boeing 747",
+      "SoGhe": 400
+    },
+    {
+      "id": "A320",
+      "TenMayBay": "Airbus A320",
+      "SoGhe": 180
+    }
+  ],
+  "chuyenbay": []
+}
