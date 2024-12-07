@@ -83,64 +83,6 @@ body {
     cursor: text;
 }
 
-.sidebar nav > ul.menu > li > ul > li > ul.dropmenu {
-    color: #ffffff;
-    border-radius: 4px;
-    background-color: #1a394d;
-    margin-left: 200px;
-    padding: 20px;
-    margin-top: -44px;
-    width: 200px;
-    position: absolute;
-    z-index: 12;
-    display:none;
-}
-
-.sidebar nav > ul.menu > li > ul > li > ul.dropmenu {
-    color: #ffffff;
-    border-radius: 4px;
-    background-color: #1a394d;
-    margin-left: 200px;
-    padding: 20px;
-    margin-top: -44px;
-    width: 200px;
-    position: absolute;
-    z-index: 12;
-    display:none;
-}
-
-.sidebar nav > ul.menu > li > ul > li:hover > ul.dropmenu {
-    display: block;
-}
-
-
-.sidebar nav > ul.menu > li > ul > li:hover > a{   
-    background-color: #ffffff;
-    color: #2d5167;
-}
-
-
-.sidebar nav > ul.menu > li > ul > li > ul.dropmenu > li{
-    padding-bottom: 10px;
-}
-
-
-.sidebar nav > ul.menu > li > ul > li > ul.dropmenu > li > a{
-    color: #ffffff;
-    list-style: none;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-
-.sidebar nav > ul.menu > li > ul > li > ul.dropmenu > li:hover > a {
-    background-color: #ffffff;
-    color: #2d5167;
-    border-radius: 4px; 
-    padding: 10px 40px;
-}
-
-
 
 /* Hiển thị menu User con ngang hàng với mục cha */
 
@@ -404,15 +346,6 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước */
-}
-.modal select {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước */
-    color: #999; /* Màu chữ mờ */
 }
 
 .modal button {

@@ -1,26 +1,28 @@
 {
-  "sanbay": [
-    {
-      "id": "4052",
-      "TenSanBay": "4",
-      "ThanhPho": "4",
-      "QuocGia": "123"
-    }
-  ],
+  "sanbay": [],
   "hangmaybay": [
     {
       "id": "1",
-      "TenHangMayBay": "VietJet",
+      "TenHang": "VietJet",
+      "ThanhPho": "HCM",
       "QuocGia": "Viet Nam"
     },
     {
       "id": "2",
-      "TenHangMayBay": "VietNam Airline",
+      "TenHang": "VietNam Airline",
+      "ThanhPho": "Hanoi",
       "QuocGia": "Viet Nam"
     },
     {
       "id": "3",
-      "TenHangMayBay": "Bamboo Airline",
+      "TenHang": "Bamboo Airline",
+      "ThanhPho": "HCM",
+      "QuocGia": "Viet Nam"
+    },
+    {
+      "id": "f957",
+      "TenHang": "vietjet",
+      "ThanhPho": "HCM",
       "QuocGia": "Viet Nam"
     }
   ],

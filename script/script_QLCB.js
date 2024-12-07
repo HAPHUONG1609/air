@@ -103,9 +103,9 @@ async function init() {
         const { sanbay, hangmaybay, maybay } = await fetchAllData();
 
         // Hiển thị dữ liệu lên các select box
-        populateSelect('SanBayDi', sanbay, 'TenSanBay', 'TenSanBay'); // Thay 'TenSanBay' và 'ID' theo cấu trúc dữ liệu của bạn
-        populateSelect('SanBayDen', sanbay, 'TenSanBay', 'TenSanBay'); // Thay 'TenSanBay' và 'ID'
-        populateSelect('MaHang', hangmaybay, 'TenHangMayBay', 'id'); // Thay 'TenHangMayBay' và 'ID'
+        populateSelect('SanBayDi', sanbay, 'TenSanBay', 'id'); // Thay 'TenSanBay' và 'ID' theo cấu trúc dữ liệu của bạn
+        populateSelect('SanBayDen', sanbay, 'TenSanBay', 'id'); // Thay 'TenSanBay' và 'ID'
+        populateSelect('MaHang', hangmaybay, 'TenHang', 'id'); // Thay 'TenHangMayBay' và 'ID'
         populateSelect('MaMayBay', maybay, 'TenMayBay', 'id'); // Thay 'TenMayBay' và 'ID'
     } catch (error) {
         console.error('Error initializing data:', error);
