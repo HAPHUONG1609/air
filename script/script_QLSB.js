@@ -255,48 +255,22 @@ function editSanBay(id) {
 }
 
 // Tìm kiếm sân bay
-// document.addEventListener('DOMContentLoaded', function() {
-//     const searchButton = document.getElementById('searchButton');
-//     const searchInput = document.getElementById('searchInput');
-
-//     searchButton.addEventListener('click', function() {
-//         const searchTerm = searchInput.value.trim().toLowerCase();
-//         if (searchTerm) {
-//             searchSanBay(searchTerm);
-//         } else {
-//             getSanBay(renderSanBay); // Hiển thị lại danh sách đầy đủ nếu ô tìm kiếm trống
-//         }
-//     });    
-    
-//     searchInput.addEventListener('input', function() {
-//         const searchTerm = searchInput.value.trim().toLowerCase();
-//         if (!searchTerm) {
-//             getSanBay(renderSanBay); // Hiển thị lại danh sách đầy đủ nếu ô tìm kiếm trống
-//         }
-//     });
-// });
-
-// function searchSanBay(searchTerm) {
-//     fetch(sanBayAPI)
-//         .then(function(response) {
-//             return response.json();
-//         })
-//         .then(function(sanbays) {
-//             const filteredSanbays = sanbays.filter(function(sanbay) {
-//                 return sanbay.TenSanBay.toLowerCase().includes(searchTerm);
-//             });
-//             renderSanBay(filteredSanbays);
-//         });
-// }
-
 document.addEventListener('DOMContentLoaded', function() {
+    const searchButton = document.getElementById('searchButton');
     const searchInput = document.getElementById('searchInput');
 
-    searchInput.addEventListener('input', function() {
+    searchButton.addEventListener('click', function() {
         const searchTerm = searchInput.value.trim().toLowerCase();
         if (searchTerm) {
             searchSanBay(searchTerm);
         } else {
+            getSanBay(renderSanBay); // Hiển thị lại danh sách đầy đủ nếu ô tìm kiếm trống
+        }
+    });    
+    
+    searchInput.addEventListener('input', function() {
+        const searchTerm = searchInput.value.trim().toLowerCase();
+        if (!searchTerm) {
             getSanBay(renderSanBay); // Hiển thị lại danh sách đầy đủ nếu ô tìm kiếm trống
         }
     });
@@ -314,3 +288,4 @@ function searchSanBay(searchTerm) {
             renderSanBay(filteredSanbays);
         });
 }
+
