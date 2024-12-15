@@ -1,0 +1,61 @@
+/* Sidebar */
+.sidebar {
+    width: 270px;
+    padding: 20px;
+    max-height: 400px;
+    background: #2d5167;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto; /* Add scrolling when necessary */
+    max-height: 100vh; /* Optional: limit sidebar height to viewport */
+    overflow: visible;
+    position: relative;
+    z-index: 10;
+}
+
+
+.sidebar nav > ul.menu > li > ul > li > ul.dropmenu {
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #1a394d;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: -44px;
+    width: 200px;
+    position: absolute;
+    display:none;
+}
+
+.sidebar nav > ul.menu > li > ul > li:hover > ul.dropmenu {
+    display: block;
+}
+
+
+.sidebar nav > ul.menu > li > ul > li:hover > a{   
+    background-color: #ffffff;
+    color: #2d5167;
+    z-index: 10;
+}
+
+
+.sidebar nav > ul.menu > li > ul > li > ul.dropmenu > li{
+    padding-bottom: 15px;
+    border-top: none; 
+}
+
+
+.sidebar nav > ul.menu > li > ul > li > ul.dropmenu > li > a{
+    color: #ffffff;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    border-top: none;
+}
+
+
+.sidebar nav > ul.menu > li > ul > li > ul.dropmenu > li:hover > a {    
+    cursor: pointer;
+}
+
